@@ -1,0 +1,22 @@
+{
+  "name": "relay-gpio-keaton",
+  "version": "1.0.3",
+  "description": "Writes to GPIO pin 3 (wiring-pi 9) on requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test\""
+  },
+  "keywords": [
+    "relay"
+  ],
+  "author": "Keaton",
+  "license": "ISC",
+  "homepage": "",
+  "dependancies": {
+    "wiring-pi" : ">0.1"
+   },
+   "bin": {
+     "start-lamp": "index.js"
+    }
+
+}
